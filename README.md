@@ -18,6 +18,6 @@ Enjoy.
 
 Screenshots From Script
 
-![1](screenshot1.png?raw=true)
-![2](screenshot2.png?raw=true)
-![3](screenshot3.png?raw=true)
+![1](screenshots/screenshot1.png?raw=true)
+![2](screenshots/screenshot2.png?raw=true)
+![3](screenshots/screenshot3.png?raw=true)
