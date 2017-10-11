@@ -1,0 +1,3 @@
+This is text from text1.txt.
+Her cup is blue and my cup is blue. 
+They are different colors.
