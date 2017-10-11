@@ -14,3 +14,10 @@ If not you can make it executable by running.
 chmod u+x bash_tutorial.sh
 
 Enjoy. 
+
+
+Screenshots From Script
+
+![1](screenshot1.png?raw=true)
+![2](screenshot2.png?raw=true)
+![3](screenshot3.png?raw=true)
