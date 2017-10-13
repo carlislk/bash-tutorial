@@ -63,7 +63,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -86,7 +86,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -108,7 +108,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -135,7 +135,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -159,7 +159,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -181,7 +181,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -208,7 +208,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -241,7 +241,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -261,7 +261,7 @@ echo -e "${C_RED}${C_RESET}$(find .  |
 	xargs -L1 -d "\n" echo -e "${C_GREEN} >${C_RESET} ")"
 
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 
 echo -e " To list all directories we can specify the type in the find command."
@@ -284,7 +284,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -315,7 +315,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -343,7 +343,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -390,7 +390,7 @@ echo -e "$(grep --color=always 'is' ./data/text1.txt |
 echo
 
 
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo -e " Matching the string ' is ' with spaces around 'is'."
 echo
@@ -403,7 +403,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -447,7 +447,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -478,7 +478,7 @@ echo -e "${C_RED}${C_RESET}$(find . -type f  |
 
 echo
 
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 
 echo -e " Using piping we can pipe the results of find to the grep command."
@@ -507,7 +507,7 @@ echo -e " Simply put xargs will seperate our filenames by spaces instead of newl
 	so we can easily pass our results from find into another command."
 echo 
 
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 echo -e " ${C_RED}>>${C_RESET} find . -type f -name '*spec'| xargs"
@@ -551,7 +551,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -587,7 +587,7 @@ echo -e " By specifing -d we can set the delimiter or how to break up the string
 
 echo 
 
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo -e " Lets use the cut command to specfically select all the Transmission types in the 
 	car models. "
@@ -626,7 +626,7 @@ echo -e " Strangely our command 'uniq' did not work as we expected. Uniq only re
 	car models."
 
 echo 
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo -e " ${C_RED}>>${C_RESET} find . -type f -name '*spec' | 
 	xargs grep Transmission_Type | cut -f 3 -d ':' | sort"
@@ -661,7 +661,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -706,7 +706,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -763,7 +763,7 @@ echo
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -812,7 +812,7 @@ sed -i s/'the same color'/'different colors'/g ./data/text1.txt
 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -869,7 +869,7 @@ while  $CMD_LOOP; do
 		echo -e "$( find . -type f -name '*.config' | 
 			xargs -L1 -d "\n" echo -e "${C_RED} >${C_RESET} ")"
 		echo
-		echo " Please try again"
+    echo " Please try again ( use ^c to exit )"
 		echo
 		unset USR_CMD
 		unset CMD_RESULT
@@ -886,7 +886,7 @@ echo -e " Good work. Lets move on to another example."
 echo 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -924,7 +924,7 @@ echo -e " In this section of the tutioral you are tasked with entering in a comm
 echo 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
@@ -954,7 +954,7 @@ while  $CMD_LOOP; do
 	# Get User Input While Empty
 	while [[ -z "$USR_CMD" ]]
 	do
-	  read -p " Enter command: " USR_CMD
+    read -p " Enter command: " USR_CMD
 	done
 
 	# Echo User Command
@@ -986,7 +986,7 @@ while  $CMD_LOOP; do
 		echo -e "$( find . -type f -name "*config" | xargs grep belt | sed s/true/false/g | 
 			xargs -L1 -d "\n" echo -e "${C_RED} >${C_RESET} ")"
 		echo
-		echo " Please try again"
+    echo " Please try again (use ^c to exit)"
 		echo
 		unset USR_CMD
 		unset USR_RESULT
@@ -1007,7 +1007,7 @@ echo -e " Good work."
 echo 
 echo $nl
 echo
-read -rsp $"Press any key to continue..." -n1 key
+read -rsp $"Press any key to continue (^c to exit)..." -n1 key
 echo
 echo
 clear
